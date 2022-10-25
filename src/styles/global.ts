@@ -7,6 +7,10 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
 
+  body {
+    background-color: #000000;
+  }
+  
   button {
     cursor: pointer;
     background: transparent;
@@ -23,3 +27,12 @@ export const GlobalStyle = createGlobalStyle`
     list-style: 0;
   }
 `;
+
+export const ColorsTheme = {
+  colors: {
+    white: '#FFFFFF',
+    gray: 'rgba(217, 217, 217, 0.15)',
+    red: '#F55859',
+    blue: '#0F81EC'
+  }
+}
