@@ -1,13 +1,16 @@
+
+import { StyledButton } from "./styles/buttons";
 import { StyledParagraph, StyledTitle } from "./styles/typography";
 
 export function App() {
   return (
     <div>
-      <StyledTitle tag="h1" fontWeight={700} fontSize="lg">
+      <StyledTitle tag="h2" fontWeight={700} fontSize="md">
         GameStore
       </StyledTitle>
 
-      <StyledParagraph fontSize="lg">Welcome to the gamestore</StyledParagraph>
+      <StyledParagraph fontSize="md">Welcome to the gamestore</StyledParagraph>
+      <StyledButton buttonSize="md" buttonStyle="outline">Teste</StyledButton>
     </div>
   )
 }
